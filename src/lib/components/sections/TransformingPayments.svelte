@@ -59,9 +59,11 @@
       class="relative grid grid-cols-1 sm:grid-cols-2 rounded-3xl overflow-hidden"
     >
       <div
-        class="hidden sm:block absolute inset-y-0 left-1/2 w-px bg-gray-300"
+        class="hidden md:block absolute inset-y-0 left-1/2 w-px bg-gray-300"
       ></div>
-      <div class="absolute inset-x-0 top-1/2 h-px bg-gray-300"></div>
+      <div
+        class="absolute inset-x-0 top-1/2 h-px bg-gray-300 hidden md:block"
+      ></div>
 
       {#each services as service}
         <div class="flex h-full flex-col justify-center p-10 space-y-3">
