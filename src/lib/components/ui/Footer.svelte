@@ -5,12 +5,17 @@
 <div class="flex flex-col mt-20 lg:space-y-18">
   <div class="flex-1 flex px-4 justify-between lg:px-20">
     <div class="w-full grid md:grid-cols-2 gap-5">
-      <div>
-        <h1
-          class="text-3xl md:text-3xl lg:text-6xl font-medium text-gray-900 leading-12 lg:leading-16 tracking-[-1%] lg:pr-20"
-        >
+      <div
+        class="lg:pr-20 md:space-y-2 leading-12 lg:leading-16 tracking-[-1%] font-medium text-gray-900"
+      >
+        <h1 class="text-3xl md:text-3xl lg:text-6xl">
           Unlock Borderless Payments With Chainpaye
         </h1>
+        <h6>
+          Message support at <a href="mailto:business@chainpaye.com"
+            >business@chainpaye.com</a
+          >
+        </h6>
       </div>
       <div class="lg:pl-90">
         <p class="text-gray-600 mb-6 leading-relaxed">
