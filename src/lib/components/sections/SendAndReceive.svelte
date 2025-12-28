@@ -9,6 +9,7 @@
   titleClass="font-semibold text-gray-800 leading-10"
   descriptionClass="text-gray-600 leading-6"
   buttonText="Start on WhatsApp"
+  buttonHref="https://wa.link/m25oou"
   buttonIcon="iconoir:whatsapp"
   imageSrc={WhatappMockup}
   imageAlt="Send and receive money instantly on Whatsapp"
