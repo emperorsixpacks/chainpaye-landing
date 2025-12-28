@@ -18,9 +18,9 @@
   export let containerClass = "";
 </script>
 
-<section class={`${sectionClass} lg:rounded-4xl overflow-hidden `}>
-  <div class={`px-4 md:px-8 lg:px-16 pt-12 lg:py-28 ${containerClass}`}>
-    <div class="flex flex-col-reverse items-center gap-8 lg:gap-16 lg:flex-row">
+<section class={`${sectionClass} md:rounded-4xl overflow-hidden `}>
+  <div class={`px-4 lg:px-16 pt-12 lg:py-28 ${containerClass}`}>
+    <div class="flex flex-col-reverse px-9 gap-8 lg:gap-16 md:flex-row">
       <div class="w-full md:w-1/2 justify-center" class:md:order-last={!swap}>
         <div class={`lg:absolute w-full max-w-md lg:max-w-lg ${extraStyle}`}>
           <img src={imageSrc} alt={imageAlt} class="w-full h-auto" />
