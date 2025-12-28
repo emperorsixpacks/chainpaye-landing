@@ -1,9 +1,15 @@
 <script lang="ts">
-	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+  import "../app.css";
+  import Header from "$lib/components/ui/Header.svelte";
+  import Footer from "$lib/components/ui/Footer.svelte";
 
-	let { children } = $props();
+  let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
-{@render children()}
+<main class="font-manrope space-y-24">
+  <Header />
+  <div class="px-1 md:px-10 lg:px-20 space-y-8 md:space-y-52">
+    {@render children()}
+  </div>
+</main>
+<Footer />
