@@ -18,9 +18,7 @@
     </div>
   </div>
 </div>
-<!-- <div class="hidden md:block">
-  <SpendStablecoins />
-</div> -->
+<SpendStablecoins />
 <GetStarted />
 <TransformingPayments />
 <RealWorld />
