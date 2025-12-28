@@ -53,10 +53,10 @@
 
     <!-- Right Column -->
     <div
-      class="grid grid-cols-1 overflow-hidden rounded-3xl border-l border-t sm:grid-cols-2 space-y-12"
+      class="grid grid-cols-1 overflow-hidden rounded-3xl sm:grid-cols-2 space-y-12"
     >
       {#each services as service, i}
-        <div class="space-y-1 border-b border-r">
+        <div class="space-y-1">
           <img src={service.component} alt={service.title} />
           <div class="py-4 px-6 md:pr-36">
             <h3 class="text-md font-bold text-gray-800">{service.title}</h3>
