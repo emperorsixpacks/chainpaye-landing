@@ -13,12 +13,9 @@
   <meta name="description" content="Unlock Borderless Payments With Chainpaye. Add seamless global and on-chain payments to your business with one lightweight integration." />
   <meta property="og:title" content="Chainpaye" />
   <meta property="og:description" content="Unlock Borderless Payments With Chainpaye. Add seamless global and on-chain payments to your business with one lightweight integration." />
-  <meta property="og:image" content="https://chainpaye.com/og-image.png" />
-  <meta property="og:url" content="https://chainpaye.com" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Chainpaye" />
-  <meta name="twitter:description" content="Unlock Borderless Payments With Chainpaye. Add seamless global and on-chain payments to your business with one lightweight integration." />
-  <meta name="twitter:image" content="https://chainpaye.com/og-image.png" />
+  <meta property="og:image" content="https://chainpaye-landing.vercel.app/og-image.png" />
+  <meta property="og:url" content="https://chainpaye-landing.vercel.app/" />
+  <meta name="twitter:image" content="https://chainpaye-landing.vercel.app/og-image.png" />
 </svelte:head>
 
 <main class="font-manrope space-y-24">
