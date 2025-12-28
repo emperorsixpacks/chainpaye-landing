@@ -26,7 +26,8 @@
       </div>
       <div class="flex items-center gap-2 md:hidden">
         <a
-          href="#whatsapp"
+          href="https://wa.link/m25oou"
+          target="_blank"
           class="w-8 h-8 rounded-full bg-gray-600 hover:bg-gray-700 flex items-center justify-center transition"
           aria-label="whatsapp"
         >
@@ -41,7 +42,8 @@
           </svg>
         </a>
         <a
-          href="#twitter"
+          href="https://x.com/chainpaye"
+          target="_blank"
           class="w-8 h-8 rounded-full bg-gray-600 hover:bg-gray-700 flex items-center justify-center transition"
           aria-label="twitter"
         >
@@ -107,7 +109,8 @@
         </div>
         <div class="gap-2 hidden md:flex">
           <a
-            href="#whatsapp"
+            href="https://wa.link/m25oou"
+            target="_blank"
             class="w-8 h-8 rounded-full bg-gray-600 hover:bg-gray-700 flex items-center justify-center transition"
             aria-label="whatsapp"
           >
@@ -122,7 +125,8 @@
             </svg>
           </a>
           <a
-            href="#twitter"
+            href="https://x.com/chainpaye"
+            target="_blank"
             class="w-8 h-8 rounded-full bg-gray-600 hover:bg-gray-700 flex items-center justify-center transition"
             aria-label="twitter"
           >
