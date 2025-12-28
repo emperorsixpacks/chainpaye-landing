@@ -1,23 +1,24 @@
 <script lang="ts">
-  import FeatureSection from '$lib/components/ui/FeatureSection.svelte';
-  import SpendStablecoinsImage from '$lib/assets/images/support.svg';
+  import CardComponent from "$lib/components/ui/CardComponent.svelte";
+  import Card1 from "$lib/assets/images/cards/card_1.png";
 </script>
 
-<FeatureSection
+<CardComponent
   sectionClass="bg-[#300026] text-white"
   title="Spend your stablecoins like cash – anywhere Visa works"
-  titleClass="font-semibold leading-10"
+  titleClass="font-bold leading-10"
   buttonText="Preorder now"
   buttonIcon="lucide:arrow-right"
   buttonSwap={true}
-  imageSrc={SpendStablecoinsImage}
+  imageSrc={Card1}
   imageAlt="Spend your stablecoins like cash"
   swap={true}
 >
-  <div slot="description">
+  {#snippet description()}
     <p class="mt-4">
-      Spend your stablecoins like cash in over 80+ countries including EUR, USD, NGN, KSH🇬🇧🇺🇸🇳🇬
+      Spend your stablecoins like cash in over 80+ countries including EUR, USD,
+      NGN, KSH🇬🇧🇺🇸🇳🇬
     </p>
     <p class="mt-4">No need for Offramps</p>
-  </div>
-</FeatureSection>
+  {/snippet}
+</CardComponent>
