@@ -9,17 +9,19 @@
   import PaymentAPIs from "$lib/components/sections/PaymentAPIs.svelte";
 </script>
 
-<div class="space-y-60">
-  <div class="space-y-0 lg:space-y-80">
+<div class="lg:space-y-60">
+  <div class="lg:space-y-80">
     <Hero />
-    <div class="space-y-100">
+    <div class="lg:space-y-100">
       <SendAndReceive />
       <CashOut />
     </div>
   </div>
 </div>
 <SpendStablecoins />
-<GetStarted />
-<TransformingPayments />
-<RealWorld />
+<div class="p-2">
+  <GetStarted />
+  <TransformingPayments />
+  <RealWorld />
+</div>
 <!-- <PaymentAPIs /> -->
