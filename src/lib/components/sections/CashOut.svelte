@@ -12,7 +12,7 @@
   buttonIcon="iconoir:whatsapp"
   imageSrc={WhatsappMockup}
   imageAlt="Cash out crypto directly from WhatsApp"
-  extraStyle="lg:transform lg:-translate-y-[68%]"
+  extraStyle="lg:transform lg:-translate-y-[68%] lg:translate-x-[40%]"
   swap={false}
 >
   <div slot="description">
