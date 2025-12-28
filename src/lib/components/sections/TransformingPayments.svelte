@@ -66,7 +66,7 @@
       ></div>
 
       {#each services as service}
-        <div class="flex h-full flex-col justify-center p-10 space-y-3">
+        <div class="flex h-full flex-col justify-center p-2 md:p-10 space-y-3">
           <img src={service.component} alt={service.title} class="max-w-full" />
 
           <h3 class="text-md font-bold text-gray-800">
