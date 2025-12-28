@@ -34,11 +34,13 @@
 </script>
 
 <section class="space-y-8 py-8">
-  <div class="space-y-2 text-center text-black px-2">
-    <h3 class="text-4xl leading-10">
+  <div class="space-y-6 text-center text-black px-2">
+    <h3 class="text-4xl leading-10 lg:px-87.5 lg:text-6xl lg:leading-14">
       Transforming cross-border payments in Africa
     </h3>
-    <span class="text-lg text-gray-500">Simple instant and low fees</span>
+    <span class="text-lg text-gray-500 lg:text-3xl"
+      >Simple instant and low fees</span
+    >
   </div>
   <div class="grid grid-cols-1 items-stretch gap-16 lg:grid-cols-[3fr_7fr]">
     <div
@@ -52,18 +54,26 @@
     </div>
 
     <!-- Right Column -->
+
     <div
-      class="grid grid-cols-1 overflow-hidden rounded-3xl sm:grid-cols-2 space-y-12"
+      class="relative grid grid-cols-1 sm:grid-cols-2 rounded-3xl overflow-hidden"
     >
-      {#each services as service, i}
-        <div class="space-y-1">
-          <img src={service.component} alt={service.title} />
-          <div class="py-4 px-6 md:pr-36">
-            <h3 class="text-md font-bold text-gray-800">{service.title}</h3>
-            <p class="mt-2 text-gray-600 text-sm md:text-lg">
-              {service.description}
-            </p>
-          </div>
+      <div
+        class="hidden sm:block absolute inset-y-0 left-1/2 w-px bg-gray-300"
+      ></div>
+      <div class="absolute inset-x-0 top-1/2 h-px bg-gray-300"></div>
+
+      {#each services as service}
+        <div class="flex h-full flex-col justify-center p-10 space-y-3">
+          <img src={service.component} alt={service.title} class="max-w-full" />
+
+          <h3 class="text-md font-bold text-gray-800">
+            {service.title}
+          </h3>
+
+          <p class="text-sm text-gray-600 leading-relaxed">
+            {service.description}
+          </p>
         </div>
       {/each}
     </div>
