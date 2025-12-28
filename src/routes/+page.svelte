@@ -14,7 +14,7 @@
     <Hero />
     <div class="space-y-100">
       <SendAndReceive />
-      <!-- <CashOut /> -->
+      <CashOut />
     </div>
   </div>
 </div>
