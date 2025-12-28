@@ -49,7 +49,7 @@
             class="w-full h-auto lg:scale-200"
           />
           <div
-            class="absolute -bottom-4 -right-44 -translate-x-1/2 lg:scale-x-125"
+            class="absolute bottom-18 scale-x-90 md:-bottom-4 md:-right-44 md:-translate-x-1/2 lg:scale-x-125"
           >
             <img src={Card1Gradiant} alt={title} />
           </div>
@@ -64,7 +64,7 @@
         </h2>
 
         <div
-          class={`text-base md:text-lg lg:text-3xl leading-relaxed lg:pr-18 ${descriptionClass}`}
+          class={`text-base md:text-lg lg:text-3xl leading-relaxed lg:pr-28 ${descriptionClass}`}
         >
           {#if description}
             {@render description()}
