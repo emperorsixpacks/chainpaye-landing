@@ -45,7 +45,7 @@
   ];
 </script>
 
-<section class="space-y-12">
+<section class="space-y-12 mt-10 md:mt-0">
   <div class="space-y-4 text-center text-gray-500">
     <h3 class="text-4xl leading-10 md:hidden">
       Get started with Chainpaye in
