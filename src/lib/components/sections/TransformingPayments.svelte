@@ -1,0 +1,71 @@
+<script lang="ts">
+  import Whatsapp from "$lib/assets/images/whatsapp.svg";
+  import Apikey from "$lib/assets/images/apikey.svg";
+  import Support from "$lib/assets/images/support.svg";
+  import Features from "$lib/assets/images/features.svg";
+  import Receive from "$lib/assets/images/receive.png";
+
+  const services = [
+    {
+      title: "Seamless WhatsApp Payments",
+      description:
+        "Send and receive payments inside WhatsApp — chat, tap, done.",
+      component: Whatsapp,
+    },
+    {
+      title: "Global Payment API",
+      description:
+        "Accept global payments easily and focus on growth with quick Chainpaye integration.",
+      component: Apikey,
+    },
+    {
+      title: "Multi-Currency Support",
+      description:
+        "Receive funds in NGN, GHS, ZAR, KES, USD and convert seamlessly.",
+      component: Receive,
+    },
+    {
+      title: "24/7 customer support",
+      description:
+        "Our customer support team is readily available to assist you whenever needed.",
+      component: Support,
+    },
+  ];
+</script>
+
+<section class="space-y-8 py-8">
+  <div class="space-y-2 text-center text-black px-2">
+    <h3 class="text-4xl leading-10">
+      Transforming cross-border payments in Africa
+    </h3>
+    <span class="text-lg text-gray-500">Simple instant and low fees</span>
+  </div>
+  <div class="grid grid-cols-1 items-stretch gap-16 lg:grid-cols-[3fr_7fr]">
+    <div
+      class="bg-linear-to-b from-blue-600 to-blue-950 rounded-3xl grid grid-rows-[1fr_2fr] gap-3"
+    >
+      <div
+        class="relative flex flex-wrap items-center justify-center pb-20 row-start-2"
+      >
+        <img src={Features} alt="Features" />
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div
+      class="grid grid-cols-1 overflow-hidden rounded-3xl border-l border-t sm:grid-cols-2 space-y-12"
+    >
+      {#each services as service, i}
+        <div class="space-y-1 border-b border-r">
+          <img src={service.component} alt={service.title} />
+          <div class="py-4 px-6 md:pr-36">
+            <h3 class="text-md font-bold text-gray-800">{service.title}</h3>
+            <p class="mt-2 text-gray-600 text-sm md:text-lg">
+              {service.description}
+            </p>
+          </div>
+        </div>
+      {/each}
+    </div>
+  </div>
+</section>
