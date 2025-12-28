@@ -12,7 +12,7 @@
   buttonIcon="iconoir:whatsapp"
   imageSrc={WhatappMockup}
   imageAlt="Send and receive money instantly on Whatsapp"
-  extraStyle="lg:transform lg:-translate-y-[62%]"
+  extraStyle="lg:transform lg:-translate-y-[62%] lg:translate-x-[10%]"
   swap={true}
 >
   <div slot="description">
