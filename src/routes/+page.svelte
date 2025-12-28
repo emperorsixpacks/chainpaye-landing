@@ -12,7 +12,7 @@
 <div class="lg:space-y-60">
   <div class="lg:space-y-80">
     <Hero />
-    <div class="lg:space-y-100">
+    <div class="md:space-y-10 lg:space-y-100">
       <SendAndReceive />
       <CashOut />
     </div>
