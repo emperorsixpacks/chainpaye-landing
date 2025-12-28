@@ -77,7 +77,7 @@
   <hr class="border-t border-gray-300 mt-4 md:hidden" />
   <!-- Footer -->
   <footer class="bg-linear-to-b from[#F5F5F5] to-blue-200">
-    <div class="max-w-full lg:px-20">
+    <div class="max-w-full md:px-10 lg:px-20">
       <nav
         class="flex flex-col md:justify-between md:flex-row gap-5 text-gray-700"
       >
@@ -156,7 +156,7 @@
 
       <div class="mb-8">
         <div
-          class="text-[58px] md:text-[90px] lg:text-[290px] font-extrabold text-gray-300 opacity-50 select-none tracking-[3%] leading-[100%]"
+          class="text-[58px] md:text-[150px] lg:text-[290px] font-extrabold text-gray-300 opacity-50 select-none tracking-[3%] leading-[100%]"
         >
           <h2
             class="bg-linear-to-t from[#F5F5F5] to-blue-300 bg-clip-text text-transparent"
