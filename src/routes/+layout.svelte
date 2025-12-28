@@ -10,17 +10,29 @@
 <svelte:head>
   <title>Chainpaye</title>
   <link rel="icon" href={favicon} />
-  <meta name="description" content="Unlock Borderless Payments With Chainpaye. Add seamless global and on-chain payments to your business with one lightweight integration." />
+  <meta
+    name="description"
+    content="Unlock Borderless Payments With Chainpaye. Add seamless global and on-chain payments to your business with one lightweight integration."
+  />
   <meta property="og:title" content="Chainpaye" />
-  <meta property="og:description" content="Unlock Borderless Payments With Chainpaye. Add seamless global and on-chain payments to your business with one lightweight integration." />
-  <meta property="og:image" content="https://chainpaye-landing.vercel.app/og-image.png" />
+  <meta
+    property="og:description"
+    content="Unlock Borderless Payments With Chainpaye. Add seamless global and on-chain payments to your business with one lightweight integration."
+  />
+  <meta
+    property="og:image"
+    content="https://chainpaye-landing.vercel.app/og-image.png"
+  />
   <meta property="og:url" content="https://chainpaye-landing.vercel.app/" />
-  <meta name="twitter:image" content="https://chainpaye-landing.vercel.app/og-image.png" />
+  <meta
+    name="twitter:image"
+    content="https://chainpaye-landing.vercel.app/og-image.png"
+  />
 </svelte:head>
 
-<main class="font-manrope space-y-24">
+<main class="md:space-y-24">
   <Header />
-  <div class="px-1 md:px-10 lg:px-20 space-y-8 md:space-y-52">
+  <div class="md:px-10 lg:px-20 md:space-y-52">
     {@render children()}
   </div>
 </main>
