@@ -9,6 +9,7 @@
   titleClass="font-bold text-gray-800"
   descriptionClass="text-gray-600"
   buttonText="Start on WhatsApp"
+  buttonHref="https://wa.link/m25oou"
   buttonIcon="iconoir:whatsapp"
   imageSrc={WhatsappMockup}
   imageAlt="Cash out crypto directly from WhatsApp"
