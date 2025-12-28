@@ -35,7 +35,7 @@
   } = $props();
 </script>
 
-<section class={`${sectionClass} lg:rounded-4xl overflow-hidden relative`}>
+<section class={`${sectionClass} lg:rounded-4xl overflow-hidden`}>
   <div class={`px-4 md:px-8 lg:px-2 py-12 lg:py-18 ${containerClass}`}>
     <div class="flex flex-col-reverse gap-8 lg:gap-0 lg:flex-row">
       <!-- Image Side -->
@@ -49,7 +49,7 @@
             class="w-full h-auto lg:scale-200"
           />
           <div
-            class="absolute bottom-18 scale-x-90 md:-bottom-4 md:-right-44 md:-translate-x-1/2 lg:scale-x-125"
+            class="absolute bottom-18 scale-x-60 md:-bottom-4 md:-right-44 md:-translate-x-1/2 lg:scale-x-125"
           >
             <img src={Card1Gradiant} alt={title} />
           </div>
