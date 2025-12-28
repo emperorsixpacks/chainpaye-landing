@@ -49,7 +49,7 @@
             class="w-full h-auto transform lg:rotate-6 lg:scale-150"
           />
           <div
-            class="absolute bottom-7 -right-24 -translate-x-1/2 lg:scale-x-125 lg:hidden"
+            class="absolute inset-0 m-auto"
           >
             <img src={Card1Gradiant} alt={title} />
           </div>
