@@ -4,7 +4,7 @@
   import HeroDesktop from "$lib/assets/images/hero_desktop.svg";
 </script>
 
-<section class="font-manrope space-y-10 min-h-screen">
+<section class="font-manrope space-y-10 md:min-h-screen">
   <div class="text-center">
     <h1 class="text-3xl text-center font-semibold text-gray-900 md:hidden">
       Pay, Send and Receive Money globally as simple as a chat.
