@@ -37,34 +37,34 @@
 
 <section class={`${sectionClass} lg:rounded-4xl overflow-hidden relative`}>
   <div class={`px-4 md:px-8 lg:px-2 py-12 lg:py-18 ${containerClass}`}>
-    <div
-      class="flex flex-col-reverse gap-8 lg:gap-16 lg:flex-row justify-center"
-    >
+    <div class="flex flex-col-reverse gap-8 lg:gap-0 lg:flex-row">
       <!-- Image Side -->
-      <div class="w-full lg:w-1/2" class:lg:order-last={!swap}>
-        <div class={`relative w-full max-w-md lg:max-w-lg ${extraStyle}`}>
+      <div class="lg:w-1/2" class:lg:order-last={!swap}>
+        <div
+          class={`relative w-full max-w-md lg:max-w-lg ${extraStyle} lg:pl-28`}
+        >
           <img
             src={imageSrc}
             alt={imageAlt}
-            class="w-full h-auto transform lg:rotate-6 lg:scale-150"
+            class="w-full h-auto lg:scale-200"
           />
           <div
-            class="absolute inset-0 m-auto"
+            class="absolute -bottom-4 -right-44 -translate-x-1/2 lg:scale-x-125"
           >
             <img src={Card1Gradiant} alt={title} />
           </div>
         </div>
       </div>
       <!-- Content Side -->
-      <div class="w-full lg:w-1/2 space-y-6 md:space-y-8 lg:pr-25">
+      <div class="lg:w-1/2 space-y-6 md:space-y-8 lg:pr-8">
         <h2
-          class={`text-3xl md:text-4xl lg:text-5xl font-bold leading-tight ${titleClass}`}
+          class={`text-3xl md:text-6xl font-bold leading-tight ${titleClass}`}
         >
           {@html title}
         </h2>
 
         <div
-          class={`text-base md:text-lg lg:text-xl leading-relaxed lg:pr-28 ${descriptionClass}`}
+          class={`text-base md:text-lg lg:text-3xl leading-relaxed lg:pr-18 ${descriptionClass}`}
         >
           {#if description}
             {@render description()}
