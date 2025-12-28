@@ -156,7 +156,7 @@
 
       <div class="mb-8">
         <div
-          class="text-[58px] md:text-[200px] lg:text-[290px] font-extrabold text-gray-300 opacity-50 select-none tracking-[3%] leading-[100%]"
+          class="text-[58px] md:text-[90px] lg:text-[290px] font-extrabold text-gray-300 opacity-50 select-none tracking-[3%] leading-[100%]"
         >
           <h2
             class="bg-linear-to-t from[#F5F5F5] to-blue-300 bg-clip-text text-transparent"
