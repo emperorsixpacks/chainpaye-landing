@@ -80,7 +80,7 @@
   <hr class="border-t border-gray-300 mt-4 md:hidden" />
   <!-- Footer -->
   <footer class="bg-linear-to-b from[#F5F5F5] to-blue-200">
-    <div class="max-w-full md:px-10 lg:px-20">
+    <div class="max-w-full p-2 md:px-10 lg:px-20">
       <nav
         class="flex flex-col md:justify-between md:flex-row gap-5 text-gray-700"
       >
