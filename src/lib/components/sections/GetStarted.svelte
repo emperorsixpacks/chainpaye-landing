@@ -13,7 +13,7 @@
       imageLarge: DemoLarge,
       swap: false,
       items: [
-        'Click <a href="/" class="text-[#0066FF] underline">here</a> to get directed to our WhatsApp AI agent',
+        'Click <a href="https://wa.link/m25oou"  target="_blank" class="text-[#0066FF] underline">here</a> to get directed to our WhatsApp AI agent',
         "Our AI Agent greets you instantly – no app download required",
         "Verify your identity securely inside WhatsApp",
       ],
