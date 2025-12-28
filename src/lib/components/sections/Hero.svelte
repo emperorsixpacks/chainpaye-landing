@@ -25,7 +25,11 @@
     </p>
 
     <div class="mt-8">
-      <Button text="Start on WhatsApp" icon="iconoir:whatsapp" />
+      <Button
+        text="Start on WhatsApp"
+        icon="iconoir:whatsapp"
+        url="https://wa.link/m25oou"
+      />
     </div>
   </div>
   <div>
